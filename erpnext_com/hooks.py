@@ -1,19 +1,19 @@
 # -*- coding: utf-8 -*-
 from __future__ import unicode_literals
 
-app_name = "erpnext_com"
-app_title = "ERPNext.com"
+app_name = "internal_aireldentalchairs_com"
+app_title = "Internal ADI"
 app_publisher = "Frappe"
-app_description = "ERPNext.com website"
+app_description = "Internal.Aireldentalchairs.Com website"
 app_icon = "fa fa-globe"
 app_color = "black"
-app_email = "info@erpnext.com"
-app_url = "https://erpnext.com"
+app_email = "web@uandh.in"
+app_url = "https://Internal.Aireldentalchairs.Com"
 app_version = "0.0.1"
 hide_in_installer = True
 
 website_context = {
-	"brand_html": "<img class='mr-2 d-inline-block align-top' src='/assets/erpnext_com/img/erpnext-logo-blue.svg' />ERPNext",
+	"brand_html": "<img class='mr-2 d-inline-block align-top' src='/assets/erpnext_com/img/ai-logo-blue.svg' />Internal Airel Dental",
 	"top_bar_items": [
 		{"label": "Pricing", "url": "/pricing", "right":1},
 		{"label": "Support", "url": "/support", "right":1},
@@ -31,28 +31,28 @@ website_context = {
 		{"label": "About", "url": "/about", "right":1},
 	],
 	"hide_login": 1,
-	"favicon": "/assets/erpnext_com/img/erpnext-logo-blue.png"
+	"favicon": "/assets/erpnext_com/img/ai-logo-blue.png"
 }
 
 website_redirects = [
-	{'source': '/compare', 'target': 'https://erpnext.org/contribute' },
+	{'source': '/compare', 'target': 'https://aireldentalchairs.com/contribute' },
 	{'source': '/benefits', 'target': '/about' },
 	{'source': '/features', 'target': '/learn' },
-	{'source': '/download', 'target': 'https://erpnext.org/get-started' },
-	{'source': '/faq', 'target': 'https://erpnext.org/faq' },
-	{'source': '/open-source', 'target': 'https://erpnext.org/open-source' },
+	{'source': '/download', 'target': 'https://aireldentalchairs.com/get-started' },
+	{'source': '/faq', 'target': 'https://aireldentalchairs.com/faq' },
+	{'source': '/open-learn', 'target': 'https://aireldentalchairs.com/open-learn' },
 ]
 
 # Includes in <head>
 # ------------------
 
 # include js, css files in header of desk.html
-# app_include_css = "/assets/erpnext_com/css/erpnext_com.css"
-# app_include_js = "/assets/erpnext_com/js/erpnext_com.js"
+# app_include_css = "/assets/internal_aireldentalchairs_com/css/erpnext_com.css"
+# app_include_js = "/assets/internal_aireldentalchairs_com/js/erpnext_com.js"
 
 # include js, css files in header of web template
-web_include_css = "/assets/erpnext_com/css/custom.css"
-web_include_js = "/assets/erpnext_com/js/payment.js"
+web_include_css = "/assets/internal_aireldentalchairs_com/css/custom.css"
+web_include_js = "/assets/internal_aireldentalchairs_com/js/payment.js"
 
 # Home Pages
 # ----------
@@ -74,14 +74,14 @@ home_page = "index"
 # Installation
 # ------------
 
-# before_install = "erpnext_com.install.before_install"
-# after_install = "erpnext_com.install.after_install"
+# before_install = "internal_aireldentalchairs_com.install.before_install"
+# after_install = "internal_aireldentalchairs_com.install.after_install"
 
 # Desk Notifications
 # ------------------
 # See frappe.core.notifications.get_notification_config
 
-# notification_config = "erpnext_com.notifications.get_notification_config"
+# notification_config = "internal_aireldentalchairs_com.notifications.get_notification_config"
 
 # Permissions
 # -----------
@@ -112,32 +112,32 @@ home_page = "index"
 
 # scheduler_events = {
 # 	"all": [
-# 		"erpnext_com.tasks.all"
+# 		"internal_aireldentalchairs_com.tasks.all"
 # 	],
 # 	"daily": [
-# 		"erpnext_com.tasks.daily"
+# 		"internal_aireldentalchairs_com.tasks.daily"
 # 	],
 # 	"hourly": [
-# 		"erpnext_com.tasks.hourly"
+# 		"internal_aireldentalchairs_com.tasks.hourly"
 # 	],
 # 	"weekly": [
-# 		"erpnext_com.tasks.weekly"
+# 		"internal_aireldentalchairs_com.tasks.weekly"
 # 	]
 # 	"monthly": [
-# 		"erpnext_com.tasks.monthly"
+# 		"internal_aireldentalchairs_com.tasks.monthly"
 # 	]
 # }
 
 # Testing
 # -------
 
-# before_tests = "erpnext_com.install.before_tests"
+# before_tests = "internal_aireldentalchairs_com.install.before_tests"
 
 # Overriding Whitelisted Methods
 # ------------------------------
 #
 # override_whitelisted_methods = {
-# 	"frappe.desk.doctype.event.event.get_events": "erpnext_com.event.get_events"
+# 	"frappe.desk.doctype.event.event.get_events": "internal_aireldentalchairs_com.event.get_events"
 # }
 
 fixtures = ["Contact Us Settings"]
