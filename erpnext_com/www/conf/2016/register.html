@@ -131,7 +131,7 @@ frappe.ready(function() {
 
 		if(valid) {
 			frappe.call({
-				method: 'erpnext_com.api.make_payment',
+				method: 'manual_aireldentalchairs_com.api.make_payment',
 				args: data,
 				callback: function(r) {
 					if(r.message) {

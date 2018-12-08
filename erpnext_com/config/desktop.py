@@ -2,7 +2,7 @@ from frappe import _
 
 def get_data():
 	return {
-		"erpnext_com": {
+		"manual_aireldentalchairs_com": {
 			"color": "black",
 			"icon": "fa fa-globe",
 			"type": "module",

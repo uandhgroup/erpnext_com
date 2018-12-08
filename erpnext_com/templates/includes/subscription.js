@@ -38,7 +38,7 @@ frappe.ready(function() {
 
 	if(plan_name) {
 		frappe.call({
-			method: 'erpnext_com.www.pricing.index.get_plan_details',
+			method: 'manual_aireldentalchairs_com.www.pricing.index.get_plan_details',
 			args: { plan_name },
 			callback: function(r) {
 				if (r.exc) return;
@@ -59,7 +59,7 @@ frappe.ready(function() {
 	}
 
 	frappe.call({
-		method:"erpnext_com.api.load_dropdowns",
+		method:"manual_aireldentalchairs_com.api.load_dropdowns",
 		callback: function(r) {
 			let $country_select = $("select[name*='country']");
 			r.message.countries.forEach(country_name => {
@@ -236,7 +236,7 @@ setup_signup = function(page) {
 
 		// on success, it will show message page!
 		frappe.call({
-			method: 'erpnext_com.api.signup',
+			method: 'manual_aireldentalchairs_com.api.signup',
 			args: args,
 			type: 'POST',
 			btn: $btn,
@@ -286,7 +286,7 @@ setup_signup = function(page) {
 	function check_if_available(subdomain, callback) {
 		setTimeout(function() {
 			frappe.call({
-				method: 'erpnext_com.api.check_subdomain_availability',
+				method: 'manual_aireldentalchairs_com.api.check_subdomain_availability',
 				args: { subdomain: subdomain },
 				type: 'POST',
 				callback: function(r) {

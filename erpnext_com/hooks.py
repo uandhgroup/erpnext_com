@@ -13,7 +13,7 @@ app_version = "0.0.1"
 hide_in_installer = True
 
 website_context = {
-	"brand_html": "<img class='mr-2 d-inline-block align-top' src='/assets/erpnext_com/img/ai-logo-blue.svg' />Internal Airel Dental",
+	"brand_html": "<img class='mr-2 d-inline-block align-top' src='/assets/manual_aireldentalchairs_com/img/ai-logo-blue.svg' />Internal Airel Dental",
 	"top_bar_items": [
 		{"label": "Pricing", "url": "/pricing", "right":1},
 		{"label": "Support", "url": "/support", "right":1},
@@ -31,7 +31,7 @@ website_context = {
 		{"label": "About", "url": "/about", "right":1},
 	],
 	"hide_login": 1,
-	"favicon": "/assets/erpnext_com/img/ai-logo-blue.png"
+	"favicon": "/assets/manual_aireldentalchairs_com/img/ai-logo-blue.png"
 }
 
 website_redirects = [
@@ -47,8 +47,8 @@ website_redirects = [
 # ------------------
 
 # include js, css files in header of desk.html
-# app_include_css = "/assets/internal_aireldentalchairs_com/css/erpnext_com.css"
-# app_include_js = "/assets/internal_aireldentalchairs_com/js/erpnext_com.js"
+# app_include_css = "/assets/internal_aireldentalchairs_com/css/manual_aireldentalchairs_com.css"
+# app_include_js = "/assets/internal_aireldentalchairs_com/js/manual_aireldentalchairs_com.js"
 
 # include js, css files in header of web template
 web_include_css = "/assets/internal_aireldentalchairs_com/css/custom.css"

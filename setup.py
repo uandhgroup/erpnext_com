@@ -4,7 +4,7 @@ import os
 version = '0.0.1'
 
 setup(
-    name='erpnext_com',
+    name='manual_aireldentalchairs_com',
     version=version,
     description='ERPNext.com website',
     author='Frappe',
