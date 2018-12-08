@@ -4,15 +4,15 @@ include *.json
 include *.md
 include *.py
 include *.txt
-recursive-include erpnext_com *.css
-recursive-include erpnext_com *.csv
-recursive-include erpnext_com *.html
-recursive-include erpnext_com *.ico
-recursive-include erpnext_com *.js
-recursive-include erpnext_com *.json
-recursive-include erpnext_com *.md
-recursive-include erpnext_com *.png
-recursive-include erpnext_com *.py
-recursive-include erpnext_com *.svg
-recursive-include erpnext_com *.txt
-recursive-exclude erpnext_com *.pyc
+recursive-include internal_aireldentalchairs_com *.css
+recursive-include internal_aireldentalchairs_com *.csv
+recursive-include internal_aireldentalchairs_com *.html
+recursive-include internal_aireldentalchairs_com *.ico
+recursive-include internal_aireldentalchairs_com *.js
+recursive-include internal_aireldentalchairs_com *.json
+recursive-include internal_aireldentalchairs_com *.md
+recursive-include internal_aireldentalchairs_com *.png
+recursive-include internal_aireldentalchairs_com *.py
+recursive-include internal_aireldentalchairs_com *.svg
+recursive-include internal_aireldentalchairs_com *.txt
+recursive-exclude internal_aireldentalchairs_com *.pyc
