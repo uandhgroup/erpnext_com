@@ -26,7 +26,7 @@ website_context = {
 			{"label": "Distribution", "url":"/distribution"},
 			{"label": "Education", "url":"/education"},
 			{"label": "Non Profit", "url":"/non-profit"},
-			{"label": "Agriculture", "url":"/agriculture"},
+			{"label": "Doctor Financing", "url":"/doctor_financing"},
 		]},
 		{"label": "About", "url": "/about", "right":1},
 	],
