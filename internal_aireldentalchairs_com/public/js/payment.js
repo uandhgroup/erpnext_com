@@ -30,7 +30,7 @@ $("head").append(script);
 setTimeout(() => {
 	var script = document.createElement( 'script' );
 	script.textContent = `window.fcWidget.init({
-		token: "2041bf4a-21c8-4921-8ff0-9cf5a49534c5",
+		token: "b63b0765-7355-4b88-9f00-ddd12e569231",
 		host: "https://wchat.freshchat.com"
 	});`;
 	script.type = "text/javascript";
